@@ -1,0 +1,20 @@
+{
+  "name": "heatingController",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "heatingController"
+  },
+  "author": "david ashton",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "express": "~4.12.2",
+    "python-shell": "0.0.3"
+  }
+}
