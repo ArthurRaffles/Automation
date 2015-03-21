@@ -1,8 +1,10 @@
 var express = require('express');
+var cors = require('cors');
 var app = express();
 var greetings = require('./greetings');
 var heating = require('./heatingController');
 
+app.use(cors());
 app.get('/', function (req, res) {
 
   res.send(greetings.sayHelloInEnglish());
