@@ -4,16 +4,25 @@ lirc_node.init();
 module.exports ={
   sendMessage: function(payload){
 
-    console.log("about to irsend..11." + payload.channel);
-    var keys = payload.channel.split("").map(function(prms){
-      var key = 'KEY_' + prms;
-      console.log(key);
-      return key;
-    });
-	  //console.log(lirc_node.remotes);
-	  //var x = ['KEY_1', 'KEY_0', 'KEY_3'];
+    var keys;
+    if(payload.channel){
+      console.log("about to irsend.." + payload.channel);
+      keys = payload.channel.split("").map(function(prms){
+        var key = 'KEY_' + prms;
+        console.log(key);
+        return key;
+      });
+    }
+    if(payload.command){
+        console.log("about to irsend command.." + payload.command);
+        keys = ['KEY_' + payload.command];
+    }
+
+	  console.log(lirc_node.remotes);
+
     lirc_node.irsend.send_once("TEL",keys, function() {
-      console.log("Sent 103 command!");
+      console.log("Sent command!");
+      console.log(keys);
     });
   }
 }
