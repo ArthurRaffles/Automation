@@ -1,0 +1,421 @@
+
+{
+   "CHANNEL" : {
+           "FIELD1":"308"
+          ,"FIELD2":"UMP Movies"
+          ,"FIELD3":"Movies"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"401"
+          ,"FIELD2":"Information TV"
+          ,"FIELD3":"Lifestyle"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"403"
+          ,"FIELD2":"Food Network"
+          ,"FIELD3":"Lifestyle"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"404"
+          ,"FIELD2":"Food Network +1"
+          ,"FIELD3":"Lifestyle"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"407"
+          ,"FIELD2":"Fashion 1"
+          ,"FIELD3":"Lifestyle"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"408"
+          ,"FIELD2":"The Active Channel"
+          ,"FIELD3":"Lifestyle"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"500"
+          ,"FIELD2":"Chart Show TV"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"501"
+          ,"FIELD2":"The Vault"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"502"
+          ,"FIELD2":"Flava"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"503"
+          ,"FIELD2":"Scuzz"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"504"
+          ,"FIELD2":"B4U Music"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"506"
+          ,"FIELD2":"Bliss"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"509"
+          ,"FIELD2":"Zing"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"510"
+          ,"FIELD2":"Clubland TV"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"511"
+          ,"FIELD2":"Massive R&B"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"515"
+          ,"FIELD2":"Vintage TV"
+          ,"FIELD3":"Over 50’s"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"516"
+          ,"FIELD2":"Heart TV"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"517"
+          ,"FIELD2":"Capital"
+          ,"FIELD3":"Music"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"600"
+          ,"FIELD2":"CBBC"
+          ,"FIELD3":"Kids"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"601"
+          ,"FIELD2":"CBeebies"
+          ,"FIELD3":"Kids"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"602"
+          ,"FIELD2":"CITV"
+          ,"FIELD3":"Kids"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"603"
+          ,"FIELD2":"POP"
+          ,"FIELD3":"Kids"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"604"
+          ,"FIELD2":"POP Girl"
+          ,"FIELD3":"Kids"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"605"
+          ,"FIELD2":"Tiny Pop"
+          ,"FIELD3":"Kids"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"606"
+          ,"FIELD2":"Kix"
+          ,"FIELD3":"Kids"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"652"
+          ,"FIELD2":"Psychic Today"
+          ,"FIELD3":"Special Interest"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"660"
+          ,"FIELD2":"Sony SAB"
+          ,"FIELD3":"Indian Entertainment"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"690"
+          ,"FIELD2":"Inspiration"
+          ,"FIELD3":"Religious"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"691"
+          ,"FIELD2":"Daystar TV"
+          ,"FIELD3":"Religious"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"692"
+          ,"FIELD2":"Revelation TV"
+          ,"FIELD3":"Religious"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"693"
+          ,"FIELD2":"Islam Channel"
+          ,"FIELD3":"Religious"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"694"
+          ,"FIELD2":"GOD Channel"
+          ,"FIELD3":"Religious"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"695"
+          ,"FIELD2":"Sonlife TV"
+          ,"FIELD3":"Religious"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"696"
+          ,"FIELD2":"TBN Europe"
+          ,"FIELD3":"Religious"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"800"
+          ,"FIELD2":"QVC"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"801"
+          ,"FIELD2":"price-drop tv"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"802"
+          ,"FIELD2":"bid tv"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"803"
+          ,"FIELD2":"Pitch TV"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"804"
+          ,"FIELD2":"Pitch World"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"805"
+          ,"FIELD2":"Gems TV"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"806"
+          ,"FIELD2":"TV Shop"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"807"
+          ,"FIELD2":"Jewellery Maker"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"808"
+          ,"FIELD2":"JML Direct"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"809"
+          ,"FIELD2":"JML Living"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"810"
+          ,"FIELD2":"Ideal Extra"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"811"
+          ,"FIELD2":"The Deal Channel"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"812"
+          ,"FIELD2":"Ideal World"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"813"
+          ,"FIELD2":"Create and Craft"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"815"
+          ,"FIELD2":"Jewellery Channel"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"816"
+          ,"FIELD2":"QVC Beauty"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"817"
+          ,"FIELD2":"Rocks & Co 1"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"818"
+          ,"FIELD2":"Gems TV Extra"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"820"
+          ,"FIELD2":"Thane Direct"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"821"
+          ,"FIELD2":"High Street TV"
+          ,"FIELD3":"Shopping"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"870"
+          ,"FIELD2":"Babestation"
+          ,"FIELD3":"Adult / Phone Girls"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"875"
+          ,"FIELD2":"Playboy TV Chat"
+          ,"FIELD3":"Adult"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"900"
+          ,"FIELD2":"On Demand"
+          ,"FIELD3":"On Demand TV Service (Internet)"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"901"
+          ,"FIELD2":"BBC iPlayer"
+          ,"FIELD3":"On Demand TV Service (Internet)"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"903"
+          ,"FIELD2":"ITV Player"
+          ,"FIELD3":"On Demand TV Service (Internet)"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"907"
+          ,"FIELD2":"Box Office 365"
+          ,"FIELD3":"On Demand TV Service (Internet)"
+       }
+  }

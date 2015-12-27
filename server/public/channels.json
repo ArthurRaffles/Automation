@@ -1,0 +1,410 @@
+{ "data": [
+
+{
+"CHANNEL" : {
+      "FIELD1":"101"
+     ,"FIELD2":"BBC ONE.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"102"
+     ,"FIELD2":"BBC TWO.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"103"
+     ,"FIELD2":"ITV.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"104"
+     ,"FIELD2":"Channel 4.png"
+     ,"FIELD3":"Entertainment (S4C in Wales)"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"105"
+     ,"FIELD2":"Channel 5.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"106"
+     ,"FIELD2":"BBC THREE.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"107"
+     ,"FIELD2":"BBC FOUR.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"108"
+     ,"FIELD2":"BBC ONE HD.png"
+     ,"FIELD3":"Entertainment – High Definition"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"109"
+     ,"FIELD2":"BBC TWO HD.png"
+     ,"FIELD3":"Entertainment – High Definition"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"112"
+     ,"FIELD2":"ITV+1.png"
+     ,"FIELD3":"Timeshift service (England & Wales only)"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"113"
+     ,"FIELD2":"ITV2.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"114"
+     ,"FIELD2":"ITV2+1.png"
+     ,"FIELD3":"Entertainment (timeshift)"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"115"
+     ,"FIELD2":"ITV3.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"116"
+     ,"FIELD2":"ITV3+1.png"
+     ,"FIELD3":"Entertainment (timeshift)"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"117"
+     ,"FIELD2":"ITV4.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"118"
+     ,"FIELD2":"ITV4+1.png"
+     ,"FIELD3":"Entertainment (timeshift)"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"119"
+     ,"FIELD2":"ITV HD.png"
+     ,"FIELD3":"Entertainment – HD (England & Wales only)"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"120"
+     ,"FIELD2":"S4C.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"121"
+     ,"FIELD2":"Channel 4+1.png"
+     ,"FIELD3":"Entertainment (timeshift)"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"122"
+     ,"FIELD2":"E4.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"123"
+     ,"FIELD2":"E4+1.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"124"
+     ,"FIELD2":"More 4.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"125"
+     ,"FIELD2":"More 4+1.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"126"
+     ,"FIELD2":"Channel 4 HD.png"
+     ,"FIELD3":"Entertainment – HD"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"127"
+     ,"FIELD2":"4seven.png"
+     ,"FIELD3":"Entertainment (Channel 4 repeats)"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"128"
+     ,"FIELD2":"Channel 5+1.png"
+     ,"FIELD3":"Entertainment (timeshift)"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"129"
+     ,"FIELD2":"5 USA.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"130"
+     ,"FIELD2":"5USA+1.png"
+     ,"FIELD3":"Entertainment (timeshift)"
+  }
+},
+  {
+   "CHANNEL" : {
+           "FIELD1":"131"
+          ,"FIELD2":"5.png"
+          ,"FIELD3":"Entertainment"
+       }
+  },
+  {
+   "CHANNEL" : {
+           "FIELD1":"132"
+          ,"FIELD2":"5+1.png"
+          ,"FIELD3":"Entertainment (timeshift)"
+       }
+  },
+{
+"CHANNEL" : {
+      "FIELD1":"134"
+     ,"FIELD2":"CBS Drama.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"135"
+     ,"FIELD2":"CBS Reality.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"136"
+     ,"FIELD2":"CBS Reality+1.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"137"
+     ,"FIELD2":"CBS Action.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"138"
+     ,"FIELD2":"Horror Channel.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"139"
+     ,"FIELD2":"Horror Channel+1.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"142"
+     ,"FIELD2":"True Entertainment.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"143"
+     ,"FIELD2":"Movies4Men.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"144"
+     ,"FIELD2":"Pick.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"145"
+     ,"FIELD2":"Challenge.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"200"
+     ,"FIELD2":"BBC NEWS.png"
+     ,"FIELD3":"News"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"201"
+     ,"FIELD2":"BBC Parliament.png"
+     ,"FIELD3":"News"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"202"
+     ,"FIELD2":"Sky News.png"
+     ,"FIELD3":"News"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"203"
+     ,"FIELD2":"Al Jazeera Eng.png"
+     ,"FIELD3":"News"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"204"
+     ,"FIELD2":"Euronews.png"
+     ,"FIELD3":"News"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"205"
+     ,"FIELD2":"France 24.png"
+     ,"FIELD3":"News"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"206"
+     ,"FIELD2":"Russia Today HD.png"
+     ,"FIELD3":"News"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"207"
+     ,"FIELD2":"CNN.png"
+     ,"FIELD3":"News"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"208"
+     ,"FIELD2":"Bloomberg Television.png"
+     ,"FIELD3":"Finance News"
+  }
+},
+
+{
+"CHANNEL" : {
+      "FIELD1":"210"
+     ,"FIELD2":"CNBC.png"
+     ,"FIELD3":"Finance News"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"211"
+     ,"FIELD2":"CCTV News.png"
+     ,"FIELD3":"News (China Central Television)"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"300"
+     ,"FIELD2":"Film4.png"
+     ,"FIELD3":"Movies"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"301"
+     ,"FIELD2":"Film4+1.png"
+     ,"FIELD3":"Movies"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"302"
+     ,"FIELD2":"True Movies 1.png"
+     ,"FIELD3":"Movies"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"303"
+     ,"FIELD2":"True Movies 2.png"
+     ,"FIELD3":"Movies"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"304"
+     ,"FIELD2":"Movies4Men.png"
+     ,"FIELD3":"Movies"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"305"
+     ,"FIELD2":"Movies4Men+1.png"
+     ,"FIELD3":"Movies"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"400"
+     ,"FIELD2":"Showcase.png"
+     ,"FIELD3":"Lifestyle"
+  }
+}
+] }

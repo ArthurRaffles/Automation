@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+
+<head>
+  <title>Telly Controller</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="node_modules/mustache/mustache.js"></script>
+</head>
+
+<body>
+  <div class="jumbotron horizontal-center">
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="row">
+          <div class="col-sm-12" id="target">
+
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div id="resp"></div>
+      </div>
+    </div>
+  </div>
+  <script id="template" type="x-tmpl-mustache">
+    <iframe class="listings" src="http://www.locatetv.com/uk/listings/freesat"></iframe>
+    {{#data}} {{#CHANNEL}}
+    <span>
+      <input class='img-standard' type='image' src='img/{{FIELD2}}' onclick='btn_click({{FIELD1}});' />
+    </span>
+    {{/CHANNEL}} {{/data}}
+  </script>
+  <script>
+    function btn_click(id) {
+      console.log(id);
+      $.get("http://192.168.0.85:3000/telly?channel=" + id, function(data) {
+
+        console.log("Load was performed.");
+      });
+    }
+
+    $.getJSON("channels.json", function(channels) {
+        console.log(channels);
+        var template = $('#template').html();
+        Mustache.parse(template); // optional, speeds up future uses
+        var rendered = Mustache.render(template, channels);
+        $('#target').html(rendered);
+      })
+      .fail(function(err) {
+        console.log("error");
+        console.log(err);
+      });
+  </script>
+</body>
+
+</html>
