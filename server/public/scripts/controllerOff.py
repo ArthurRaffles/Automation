@@ -31,24 +31,22 @@ GPIO.output (16, False)
 GPIO.output (13, False)
 
 try:
-    print "sending code 1111 socket 1 on"
-    GPIO.output (11, True)
-    GPIO.output (15, True)
-    GPIO.output (16, True)
-    GPIO.output (13, True)
-    # let it settle, encoder requires this
-    time.sleep(0.1)
-    # Enable the modulator
-    GPIO.output (22, True)
-    # keep enabled for a period
-    time.sleep(0.25)
-    # Disable the modulator
-    GPIO.output (22, False)
-
-    print "about to clean up"
-    GPIO.cleanup()
+	# Set K0-K3
+	print "sending code 0111 Socket 1 off"
+	GPIO.output (11, True)
+	GPIO.output (15, True)
+	GPIO.output (16, True)
+	GPIO.output (13, False)
+	# let it settle, encoder requires this
+	time.sleep(0.1)
+	# Enable the modulator
+	GPIO.output (22, True)
+	# keep enabled for a period
+	time.sleep(0.25)
+	# Disable the modulator
+	GPIO.output (22, False)
+	GPIO.cleanup()
 
 # Clean up the GPIOs for next time
 except KeyboardInterrupt:
-    GPIO.cleanup()
-    print "in except"
+	GPIO.cleanup()

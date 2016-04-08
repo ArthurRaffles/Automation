@@ -31,7 +31,7 @@ GPIO.output (16, False)
 GPIO.output (13, False)
 
 try:
-    print "sending code 1111 socket 1 on"
+	print "sending code 1111 socket 1 on"
     GPIO.output (11, True)
     GPIO.output (15, True)
     GPIO.output (16, True)
@@ -45,10 +45,8 @@ try:
     # Disable the modulator
     GPIO.output (22, False)
 
-    print "about to clean up"
-    GPIO.cleanup()
+	GPIO.cleanup()
 
 # Clean up the GPIOs for next time
 except KeyboardInterrupt:
-    GPIO.cleanup()
-    print "in except"
+	GPIO.cleanup()
