@@ -20,6 +20,7 @@
     "browserify": "~9.0.3",
     "cors": "~2.5.3",
     "lirc_node": "0.0.2",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "node-rest-client": "~1.8.0"
   }
 }

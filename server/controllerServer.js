@@ -7,14 +7,6 @@ var heating = require('./heatingController');
 var telly = require('./tellyController');
 
 app.use(cors());
-// app.get('/', function (req, res) {
-//   console.log("about t0 send index.html");
-//     console.log(__dirname);
-//   var l = path.resolve('./public/index.html');
-//   console.log(l);
-//   res.sendFile(l);
-// //  res.send(greetings.sayHelloInEnglish());
-// })
 app.use(express.static(__dirname + '/public'));
 app.get('/hola', function (req, res) {
 
@@ -32,6 +24,9 @@ app.get('/heatingOff', function (req, res) {
 })
 app.get('/telly', function (req, res){
   res.send(telly.sendMessage(req.query));
+})
+app.get('/channels', function (req, res){
+  telly.getChannels(res);
 })
 var server = app.listen(3000, function () {
 

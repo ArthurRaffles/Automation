@@ -17,7 +17,8 @@
     max-width: 150px;
     min-width: 80px;
     min-height: 100px;
-    background-color: black;
+    /*background-color: black;*/
+    background-color: #006f39;
 }
 .listings {
     min-width: 100%;
@@ -26,4 +27,10 @@
     height: 800px;
     /*overflow: scroll;*/
     border: 0px ;
+    align-content: center;
+}
+.channels {
+width: 100%;
+    align-content: center;
+    padding-left: 45px;
 }
