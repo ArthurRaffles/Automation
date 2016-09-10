@@ -7,11 +7,12 @@
      ,"FIELD3":"Entertainment"
   }
 },
+
 {
 "CHANNEL" : {
       "FIELD1":"102"
-     ,"FIELD2":"BBC TWO.png"
-     ,"FIELD3":"Entertainment"
+     ,"FIELD2":"BBC TWO HD.png"
+     ,"FIELD3":"Entertainment – High Definition"
   }
 },
 {
@@ -37,30 +38,23 @@
 },
 {
 "CHANNEL" : {
-      "FIELD1":"106"
-     ,"FIELD2":"BBC THREE.png"
-     ,"FIELD3":"Entertainment"
-  }
-},
-{
-"CHANNEL" : {
-      "FIELD1":"107"
+      "FIELD1":"110"
      ,"FIELD2":"BBC FOUR.png"
      ,"FIELD3":"Entertainment"
   }
 },
 {
 "CHANNEL" : {
-      "FIELD1":"108"
+      "FIELD1":"106"
      ,"FIELD2":"BBC ONE HD.png"
      ,"FIELD3":"Entertainment – High Definition"
   }
 },
 {
 "CHANNEL" : {
-      "FIELD1":"109"
-     ,"FIELD2":"BBC TWO HD.png"
-     ,"FIELD3":"Entertainment – High Definition"
+      "FIELD1":"108"
+     ,"FIELD2":"BBC TWO.png"
+     ,"FIELD3":"Entertainment"
   }
 },
 {
@@ -277,6 +271,27 @@
 "CHANNEL" : {
       "FIELD1":"145"
      ,"FIELD2":"Challenge.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"155"
+     ,"FIELD2":"ITV4+1.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"162"
+     ,"FIELD2":"Drama.png"
+     ,"FIELD3":"Entertainment"
+  }
+},
+{
+"CHANNEL" : {
+      "FIELD1":"164"
+     ,"FIELD2":"Really.png"
      ,"FIELD3":"Entertainment"
   }
 },

@@ -15,12 +15,17 @@
 
 <body>
   <div class="jumbotron horizontal-center">
+
     <div class="container-fluid">
+
       <div class="row">
+
         <div class="row">
           <div class="col-sm-12" id="target">
+
           </div>
         </div>
+
       </div>
       <div class="row">
         <div id="resp"></div>
@@ -28,40 +33,23 @@
     </div>
   </div>
   <script id="template" type="x-tmpl-mustache">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="row">
-        <div class="col-sm-12">
-          <iframe class="listings" src="http://www.freesat.co.uk/tvguide"></iframe>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 channels">
-        {{#data}}
-        <span>
-          <input class='img-standard' type='image' src='http://fdp-sv15-image-v1-0.prod1.freetime-platform.net/cache/120x120-2{{LogoUrl}}' onclick='btn_click({{Lcn}});' />
-        </span>
-         {{/data}}
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div id="resp"></div>
-    </div>
-  </div>
-
-
+    <iframe class="listings" src="http://www.freesat.co.uk/tvguide"></iframe>
+    {{#data}} {{#CHANNEL}}
+    <span>
+      <input class='img-standard' type='image' src='img/{{FIELD2}}' onclick='btn_click({{FIELD1}});' />
+    </span>
+    {{/CHANNEL}} {{/data}}
   </script>
   <script>
     function btn_click(id) {
       console.log(id);
       $.get("http://192.168.0.85:3000/telly?channel=" + id, function(data) {
+
         console.log("Load was performed.");
       });
     }
 
-    $.getJSON("http://192.168.0.85:3000/channels", function(channels) {
-      console.log("received channels");
+    $.getJSON("channels.json", function(channels) {
         console.log(channels);
         var template = $('#template').html();
         Mustache.parse(template); // optional, speeds up future uses

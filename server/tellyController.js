@@ -25,7 +25,7 @@ module.exports ={
       console.log(keys);
     });
   },
-  ///ms/img/channel_logos/12/mobile/BBC1.png
+  
   getChannels: function(res){
     var client = new Client();
 
@@ -38,6 +38,5 @@ module.exports ={
     	console.log(data);
       res.send(data);
     });
-  },
-
+  }
 }
