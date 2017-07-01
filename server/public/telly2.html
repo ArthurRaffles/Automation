@@ -20,6 +20,19 @@
 
       <div class="row">
 
+      <div class="row">
+        
+        <form name="myForm" 
+          onsubmit="return validateForm()">
+          <div class="form-group">
+            <label for="channel">Channel</label>
+            <input type="text" class="form-control" id="channel" placeholder="channel">
+          </div>
+         <!--  channel: <input type="text" name="fname"> -->
+          <input type="submit" value="Submit" style="display: none" >
+        </form>
+
+      </div>
         <div class="row">
           <div class="col-sm-12" id="target">
 
@@ -36,11 +49,21 @@
     <iframe class="listings" src="http://www.freesat.co.uk/tvguide"></iframe>
     {{#data}} {{#CHANNEL}}
     <span>
-      <input class='img-standard' type='image' src='img/{{FIELD2}}' onclick='btn_click({{FIELD1}});' />
+      <input class='img-standard' type='image' src='img/{{FIELD2}}' alt='{{FIELD2}}' onclick='btn_click({{FIELD1}});' />
     </span>
     {{/CHANNEL}} {{/data}}
   </script>
   <script>
+    function validateForm() {
+      var id = document.forms["myForm"]["channel"].value;
+      console.log(id);
+      $.get("http://192.168.0.85:3000/telly?channel=" + id, function(data) {
+
+        console.log("called change channel.", id);
+      });
+      return true;
+
+    }
     function btn_click(id) {
       console.log(id);
       $.get("http://192.168.0.85:3000/telly?channel=" + id, function(data) {
